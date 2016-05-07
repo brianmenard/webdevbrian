@@ -1,0 +1,44 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+*{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.navbar-custom{
+  background-color: #0B8C8F;
+  padding-right: 50px;
+
+  div ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right:20px;
+    padding-left: 20px;
+  }
+
+  div ul li a:hover{
+    color: #0B8C8F;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right:20px;
+    padding-left: 20px;
+  }
+}
+
+.logotype{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 24px;
+}
+
+.centered{
+  text-align: center;
+}
+
+.tall{
+  height:500px;
+  background-color: grey;
+}
