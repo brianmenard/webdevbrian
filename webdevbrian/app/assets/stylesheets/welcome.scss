@@ -6,8 +6,12 @@
   font-family: 'Alegreya Sans', sans-serif;
 }
 
+html{
+  background-color: #FEF9F0;
+}
+
 .navbar-custom{
-  background-color: #0B8C8F;
+  background-color: #FF4040;
   padding-right: 50px;
 
   div ul li a{
@@ -19,7 +23,8 @@
   }
 
   div ul li a:hover{
-    color: #0B8C8F;
+    color: #FF4040;
+    background-color: #FEF9F0;
     font-size: 20px;
     font-weight: bold;
     padding-right:20px;
@@ -39,6 +44,13 @@
 }
 
 .tall{
-  height:500px;
-  background-color: grey;
+  height:550px;
+}
+
+.photo{
+  max-height: 250px;
+}
+
+.white{
+  color: white;
 }
